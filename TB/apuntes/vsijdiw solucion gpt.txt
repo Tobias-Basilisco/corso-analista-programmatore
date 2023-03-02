@@ -1,0 +1,12 @@
+Per far comunicare due software tramite una rete dati (internet, LAN, ecc.) servono due informazioni:
+- indirizzo IP del computer di destinazione
+- porta del software
+
+Una porta (software) è un numero che identifica il software al quale il S.O. deve passare le comunicazioni
+
+
+Verifique el registro de eventos en su computadora para ver si hay algún registro de errores o advertencias relacionados con la ventana que se abre y cierra rápidamente. Para abrir el registro de eventos, presione la tecla de Windows + R, escriba "eventvwr.msc" y presione Enter.
+Ejecute un escaneo completo de su sistema utilizando su software antivirus o antimalware para verificar si hay algún virus o malware presente en su sistema.
+Revise la lista de programas instalados en su computadora y desinstale cualquier programa que no reconozca o que no haya instalado usted mismo.
+Descargue y ejecute una herramienta de limpieza del registro de Windows para corregir cualquier problema en el registro de Windows.
+Si el problema persiste, puede intentar realizar una restauración del sistema a un punto anterior en el tiempo en el que su computadora funcionaba correctamente antes de que apareciera la ventana.

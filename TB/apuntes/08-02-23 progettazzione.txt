@@ -1,0 +1,32 @@
+progettazzione
+	microsoft project
+	projectlibre   (gratis)
+
+un progetto è un'attività unica.
+un processo è un insieme di attività che si repitono di continuo.
+un programma è un insieme di progetti correlati.
+un portfolio è un insieme di programmi.
+
+
+fasi di progetto
+	avvio e planificazione
+	esecuzione
+	controllo
+	chiusura
+
+diagrammi di flusso softwares:
+	xmind
+	cimap tool
+	
+SCOPO 
+TEMPO
+COSTO
+
+cpm forward pass  (flusso con tempo (con percorso critico)
+	projectlibre
+	microsoft project
+
+
+!  prezi
+
+!  adobecolor.com

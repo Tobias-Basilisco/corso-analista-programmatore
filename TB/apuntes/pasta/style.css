@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+	list-style-type: none;
+	
+	
+	
+}
+
+li {
+	padding-right: 50px;
+	padding-left: 50px;
+	float: left;
+}
+h1 {
+	color: darkblue;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+nav {
+	background-color: #821818;
+}
+
+.logo{
+	float: left;
+	width: auto;
+	
+}
+
+body{ 
+	background-color:rgba(241,215,176,1.00)
+}
+

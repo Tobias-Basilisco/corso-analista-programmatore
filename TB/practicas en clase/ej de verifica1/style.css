@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+	
+}
+
+section h1,h3, p {
+	text-align: center;
+}
+
+.stripe {
+	width: 100%;
+	height: 100px;
+	background-color: darkolivegreen;
+	position: absolute;
+	top: 125px;
+	z-index: -9;
+}
+
+section {
+	position: relative;
+}
+
+
+.today {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+	
+}
+
+.oggi {
+	width: 450px;
+	height: 300px;
+	background-image: url("immagini/piatto1.jpg");
+	background-size: cover;
+	color: white;
+	
+}
+
+.oggi2 {
+	width: 450px;
+	height: 300px;
+	color: white;
+	
+}
+
+#lasagne {
+	width: 450px;
+	height: 125px;
+	background-image: url("immagini/piatto2.jpg");
+	margin-bottom: 50px;
+}
+
+
+#insalatone {
+	width: 450px;
+	height: 125px;
+	background-image: url("immagini/piatto3.jpg");
+	
+}
+
+
+@media (min-width: 470px) and (max-width: 970px){
+	.cards {
+	flex-direction: column;
+	text-align: center;
+	
+	}
+	.stripe {
+		display: none;
+	}
+	.today {
+		display: block;
+		width: 450px;
+		margin: 0 auto;	
+	}
+	.oggi {
+		height: 125px;
+		margin-bottom: 50px;
+	}
+}

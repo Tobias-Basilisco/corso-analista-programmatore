@@ -1,0 +1,37 @@
+span dentro de un div para que ese objeto dentro del div sea in line y se mantega en la misma posicion
+por ejemplo para cambiarle el color solo a una palabra o fras
+
+
+
+../    vai a la cartella superiore
+
+
+sito esercizio 1
+	3 pagine
+	prodotti
+		2 file (due altre pagine
+		imagini
+	imagini
+
+
+
+formatos de imagenes que aceptan la paginas web:
+-jpeg e jpg (buena paleta, sin transparencia)
+-gif  (puede tener transparencias pero na paleta de colores chica 256)
+-png  (buena paleta con transparencia) mejor
+
+-svg
+
+imagenes libres de derechos:
+
+photoshop
+esporta-salva per web
+esporta-rapido png
+
+
+softwares imagenes:
+
+affinity photo 
+pixlr
+
+

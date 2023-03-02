@@ -1,0 +1,29 @@
+
+.genitore{
+	background-color: rgba(106,137,237,1.00);
+	position:relative;
+	top:10px;	
+}
+
+
+.uno {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: rgba(117,222,112,1.00)
+}
+
+.due {
+	position:relative;
+	top:10px;
+	left:20px;
+	background-color: rgba(244,128,111,1.00)
+}
+
+
+.tre {
+	position:relative;
+	top:10px;
+	left:20px;
+	background-color: rgba(222,112,146,1.00)
+}

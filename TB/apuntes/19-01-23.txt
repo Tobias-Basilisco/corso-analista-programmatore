@@ -1,0 +1,94 @@
+pagina web e comerce costo= 3000-30000 euros
+
+best practice  per il motore di ricerca
+
+
+en korea se usa naver  en lugar de google
+
+en china usan bidu
+
+search console??? e google analytics
+
+lo schema.org???
+
+
+analisi digital identity
+
+strumenti utilizzati
+	-google search engine
+	-google webmasters tool
+	-google analytics
+
+
+
+google search console
+	introducir la pagina para ver si le gusta al motor de busqueda
+	descargar el archivo
+	cargarlo al hosting via ftp
+
+
+motore di ricerca
+	1 Crawling
+		arriva al sito web, fotocopia e porta al motore di ricerca
+			ogni quanto aggiorna il crawler? dipende del browser  crawler time  (tra 7 secondi e 3 messi)
+			quanto tempo si ferma? quanta info copia? non lo so
+		a traverso la search console puoi dirle al motore di ricerca che ho cambiato qualcosa:
+	RICHIESTA DI INDICIZZAZIONE
+	2 Indexing
+	copia archivos y los nomencla
+
+	3 Ranking
+	fase di posizionamento
+	RELATIVO A
+		chi
+		da dove
+		quando
+		quale dispositivo
+		ricerche precedenti
+	cambia tutto il tempo
+
+
+per parole chiavi 
+prima 5 resultati
+deve superar mediamente il 15%
+
+
+
+responsive è grafica: riadattamento de lapagina allo schermo del sipositivo
+
+mobile friendly: adatta per mobile anche in usabilità
+-usabilità mobile: dati di questo sulla search console 
+
+
+sitemap 
+-con la estructura de la pagina
+-formato xml
+-le sirve al crawler y a google le gusta
+-xml sitemap generator:  xml-sitemaps.com
+			
+agiungi al host
+dirlo sulla search console
+
+
+
+
+
+snippet=eso que aparece en la descripcion cuando encuentran tu pagina (se lo sugeris al motoro de ricerca)
+si la pagina aparece y poca gente no lo clicka hay que trabajar mas sobre el snippet
+
+
+
+
+oggetti distinguibili, chiari
+
+mirabilandia
+
+lazy load?
+
+
+
+how fast does your website load?:
+pagespeed.web
+gtmetrix.com
+
+

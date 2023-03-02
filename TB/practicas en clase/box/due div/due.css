@@ -1,0 +1,30 @@
+.sinistra { 
+	float: left;
+	background-color: beige;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
+	padding: 20px;
+	border: 2px solid black;	
+	box-sizing: border-box
+	
+}
+
+.destra { 
+	float: right;
+	background-color: beige;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
+	padding: 20px;
+	border: 2px solid black;	
+	box-sizing: border-box
+	
+}
+
+main {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}

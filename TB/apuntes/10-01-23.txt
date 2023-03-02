@@ -1,0 +1,10 @@
+html
+
+nome di file senza spazio e tutto in minusculo
+la homepage deve essere chiamata index.html
+titolo: nome della azienda/home, ecc.
+
+DOM
+
+caratteri web safe
+

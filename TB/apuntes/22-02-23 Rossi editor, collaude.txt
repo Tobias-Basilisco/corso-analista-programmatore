@@ -1,0 +1,112 @@
+software
+	un insieme ordinato di istruzioni binarie
+
+esistono due linguagi:
+	-codice machina (binario)
+	-codice sorgente (di alto livello)
+
+lo svilupatore scrive il codice sorgente
+l'esecutore può utilizzare solo codice machina
+la traduzione fra linguagi sorgenti e machina può avvenire in due modi
+un software può essere compilato oppure interpretato
+COMPILATO
+	è un software che può essere eseguito direttamente dall'esecutore 
+	(esecutori diversi parlano linguagi diversi)
+	un software compilato funziona solo sull'esecutore per il cuale è stato creato
+	*ej .exe
+
+INTERPRETATO
+	richiede un software di supporto (interprete) che traduce al volo ogni riga di sorgente nelle corrispondente di codice machina
+	che poi vengono eseguite dell'esecutore
+	*ej php
+
+nell software compilati i sorgenti rimangono solo al sviluppatore perchèe viene distribuito il file eseguibile
+
+nell software interpretati devono distribuire il sorgente
+
+ide/editore
+
+per scrivere il sorgente si utilizza un software
+
+esistono due tipi:
+	-IDE (integrated development environment)
+		più potente
+		tipicamente utilizzati per scrivere software compilati
+		*ej visual studio code
+ 	-editor
+		è un qualunque software che scrive i sorgenti
+		deve permetere di scrivere file di testo (esto piano)
+		*ej visual studio code editor7dreamweaver
+	
+Collaudo
+	la fase di collaudo serve a verificcare che un software sia corretto
+	per essere corretto un software deve avere alcune caratteristiche
+	-deve produrre degli output attesi in funzione del input previsti
+	-deve terminare l'esecuzione nei tempi previsti
+	-deve funzionare nei tempi previsti sull'esecutore target
+	per effetuare un collaude è utile avere un protocolo di test
+	il protocolo di test è un insieme di tutti casi (input+output) da testare e tutti gli ambiente nei quali fare i test
+	è possibile atumatizare parte del collaude utilizando i calli le test unit (classe di test)
+
+Supporti per test/collaudo
+	esistono molti supporti per collaudo e test
+	-test unit: sistemi automatici che verificano la corretttezza delle unità funzionali
+	-debugger: consente di vedere lo stato interno dell'esecutore durante l'esecuzione del codice
+	-issue tracker: tiene traccia degli errori e dei processo di correzione
+		-indicare la gravità dell'errore
+		-indicare il responsabile (colpevole) della correzione
+		-tenere traccia dell'avazamento lavori
+
+Distribuzione
+	la distribuzione fornisce il software agli utenti
+	esistono molte modalità:
+		-supporti fisici (cd, dvd, pendrive, etc)
+		-distribuzione digitale
+			-download del sito
+			-store dedicati
+		-repository
+		-saas (software as a service)
+
+Manutenzione
+	è la correzione di errori dopo la distribuzione
+	
+
+
+
+analisi
+progetazione
+implementazione
+collaude
+distribuzione
+manutenzione
+
+modelo top down vs agile
+
+
+linguagi web
+
+
+html
+	definisce la struttura e contenuti
+
+css
+	definisce l'aspetto dei contenuti
+
+php
+	genera dinamicamente html
+	è un linguagi lato server
+
+javascript
+	consente di modificare la pagina direttamente nei browser
+	è un linguagio lato client
+	
+
+xampp è un server locale che comprende l'interprete php, un DBMS (data base management system) ealtri software 	
+
+i comandi php vengono interpreti solo se sono rachiusi fra <?php e ?>
+
+echo
+	la direttiva consente di stampare nella pagina html
+	la sintasi è echo  "testo di stampare"
+tutte le instruzioni php devono terminare con ;
+

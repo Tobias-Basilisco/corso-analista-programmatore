@@ -1,0 +1,90 @@
+la cafetiera delmasochista
+
+breadcrumbs. a google le gusta
+es como la ruta de navegacion ej. home - ateneao - organizzazione
+
+sku  un numero que identifica cada producto (es unico)
+
+back links
+no valutati si vienen de social network / forum
+
+en google:
+site:www.nombredelsitiowebenelcualqueresversiestaellinkhaciatupagina "www.ellinkhaciatupaginaqueestaenlapaginaprecedente"
+
+links internos y externos
+
+
+disavow
+link toxicos  
+descargar los links externos que senialan a nuestro sitio
+eliminar los sanos
+convertir el xls/xlsx en txt
+cargarlo en disavow de la search console (googlearlo) 
+
+test b 
+
+due versioni per testare quale delle due versione è migliore
+
+
+google optimize para test b (hoy lo cancelaron)
+
+IP
+IPV4   000.000.000.000
+IPV6   255.255.255.255.255.255
+
+
+
+filtrare il nostro indirizo ip in google analytics e l'aziendale
+
+CDN content delivery network
+
+costi de pagina web:
+dominio
+hosting                      staging
+sviluppo
+distribuzione
+	CDN  ej cloudfare
+	servers distribuidos en el mundo o zona con database propios de la empresa de CDN
+	13 en el mundo CDN.  asocia dominio a IP
+
+whoishostingthis.com
+
+adunanza
+
+
+hosting:
+aruba
+netsons
+siteground    recomendado
+aws           el mejor pero el mas caro
+ovh
+google cloud
+
+tag noindex per dirle al crawler che non prenda il link
+
+robots.txt
+allow e disallow
+
+
+i search from
+
+domain authority
+la importancia de una pagina web dentro del ambito en el que se desenvuelve
+debemos saber cual es la de la nuestra pagina
+y queremos tener backlinks de paginas con mayor DA que el nostro
+moz.com
+
+keyword density
+parole chiavi che si ripetono nel testo
+analisis con un kwyword density checker
+
+
+
+backlinks
+moz.com
+
+answerthepublic.com
+
+cosa cercano gli utenti su google
+
+

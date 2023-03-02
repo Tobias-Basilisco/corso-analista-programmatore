@@ -1,0 +1,54 @@
+claudio rossi
+
+3473900740
+
+claudio@eurosoftlab.com
+crossi72@hotmail.com
+
+
+ciclo di vita del software
+-analisi
+-progettazioni
+-implementazione     programmatore
+-collaudo       pruebas
+-distribuzione
+-manutenzione
+ e ricomincia
+
+sviluppo agile
+
+
+analisi
+
+.l'analiste deve produrre il documento di specifiche funzionionali
+.intervista il cliente per:
+-ambito operativo (dov'è il software e hardware? in cloud? in un client? sulla machina del cliente?) celulare? pc?
+-tipo di utenza (a chi e diretto? chi sarà il utente? un tecnico o donia Rosa?)
+-input (con tastiera? con mouse? con voce?)
+-output
+-flussi di trasformazione (secondo quale regola si trasforma l'input in output)
+
+interfacce e mockup
+un interfaccia e un sistema software che dialoga con l'utente
+
+b to b (empresa a empresa) o b to c (al cliente)?
+
+mockup è un bozzetto grafico delle interfacce
+
+
+
+
+
+
+
+
+diseniar un programa que connvierta un codigo de un lenguaje en otro (ej  de python a javascript)
+
+
+asward?
+edge computing???
+gpt3???
+open AI???
+
+
+mockitt  !!!

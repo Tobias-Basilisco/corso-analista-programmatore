@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+header {
+		background-color: #EDC45E;
+		display: flex;
+		justify-content: space-between;
+		height: 148px;
+		align-items: center;
+}
+body{ 
+	background-color:#F1D693;
+}
+
+nav {
+	height: inherit;
+	align-items: center;
+}
+nav ul {
+	list-style-type: none;	
+	display: flex;
+	height: inherit;
+	
+
+	
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	height: inherit;
+	align-items: center;
+	
+	
+}
+
+header nav ul li::after {
+	content: "";
+	position: absolute;
+	top:30px;
+	border-right: solid 1px black;
+	height: 90px;
+
+}
+.logo {
+	margin-right: auto;
+	padding-left: 20px;
+	width: auto;
+	height: 10px;
+	padding-bottom: 140px;
+	padding-top: 0px;
+	
+	
+		
+}
+
+nav ul li a {
+	padding-left: 35px;
+	padding-right: 35px;
+	display: block;
+	height: inherit;
+	line-height: inherit;
+	text-align: center;
+	align-content: center;
+	
+	padding-top: 60px;
+	
+		
+}
+
+.lastli {
+	
+	
+}
+
+.barra {
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.lia:hover{
+    text-decoration: none;
+	background-color: #F3D794;
+	
+}
+
+.lasta:hover{
+	 text-decoration: none;
+	background-color: #F3D794;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	
+}
+
+
+figure { 
+	position: relative;
+	top:5px; width: 100%;
+}
+
+
+
+.titolo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	width:100%; 
+	color:#FAF1DA; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ 	font-size: 60px;
+	text-shadow: 6px 6px #393838bf;
+	line-height: 120px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.home{
+	background-image: url("immagini/fondo2.jpg");
+}
+.pasta{
+	background-image: url("immagini/fondopasta.jpg");
+}
+
+.sezione-prodotti {
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            width: 80%;
+            margin:0 auto;
+            margin-top: 5rem;
+        }
+
+.prodotti-img {
+	width: 400px;
+	height: 260px;
+	overflow: hidden;
+	margin-left: 30px;
+	margin-right: 30px;
+	border: solid black 1px;
+}
+
+.pastatitle{
+	clear: both;
+	text-align: center;
+	margin: 30px;
+}
+
+.pastadesc p {
+	margin-left: 30px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 250px;
+	padding-bottom: 10px;
+}
+
+.sezione-redes {
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            width: 20%;
+            margin: 0 auto;
+            margin-top: 2rem;
+			margin-bottom: 2rem;
+        }
+
+.redes {
+	width:30px;
+	height: 30px;
+	
+}
+
+.contat {
+	font-size: 2rem;
+
+}
+
+

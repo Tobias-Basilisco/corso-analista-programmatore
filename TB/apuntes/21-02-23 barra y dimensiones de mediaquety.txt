@@ -1,0 +1,13 @@
+barra
+height  Xpx
+z-index: 0
+psition: absolute(el div contenitore deve essere in relative)
+
+
+576 phone
+
+768 tablet
+
+992 laptop
+
+1020 desktop

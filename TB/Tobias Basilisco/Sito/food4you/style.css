@@ -1,0 +1,231 @@
+@font-face {
+	src: url("fonts/FrederickatheGreat-Regular.ttf");
+	font-family: 'FrederickatheGreat';}
+	
+@font-face {
+	src: url("fonts/Gabelisa.otf");
+	font-family: 'Gabelisa';
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans Syloti Nagri', sans-serif;
+}
+
+
+.top {
+	background-image: url("immagini/sfondo.jpg");
+	background-position: center center;
+	height: 600px;
+	
+	
+}
+
+#headermenu {
+	background-image: url("immagini/sfondo.jpg");	
+	background-position: center center;
+	height: 130px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	
+}
+
+nav ul li a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 40px 20px;
+		
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	padding: 40px;
+}
+
+nav { padding:12px 40px;}
+
+.attuale {
+	text-decoration: underline;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aligned {
+	text-align: center;
+}
+
+.margined {
+	padding: 40px;
+}
+
+h1 {
+	font-family: 'Gabelisa';
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'FrederickatheGreat';
+	font-size: 80px;
+	padding-top: 10px;
+	font-weight: 100
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+h5 {
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+
+p {margin-top: 5px;}
+
+#piattog {
+	padding-right: 60px;
+}
+
+
+#lun{
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#lunedi p{
+	font-family: 'FrederickatheGreat';
+	font-weight: 700;
+
+}
+
+main {
+	padding-top: 40px;
+}
+
+.piatto {
+	flex-basis: 25%;
+	padding-top: 40px;
+	z-index: 2;
+}
+
+.trepiatti {
+	font-size: 12px;
+	padding-bottom: 50px;
+}
+
+.padlf {
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+#trepiatti {
+	position: relative;
+}
+#barra {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 920px;
+	background-color: #e8e6a9;
+	z-index: 1;
+}
+
+
+
+#grande {
+	
+	background-image:url("immagini/piatto1.jpg");
+	background-position: center center;
+	background-size: cover;
+	margin: 10px;
+	
+}
+
+.unoedue {
+	color: white;
+	flex-basis: 47%;
+	height: 300px;
+}
+
+#pic {
+	background-image:url("immagini/piatto2.jpg");
+	background-position: center center;
+	background-size: cover;
+	margin: 10px;
+	height: 145px;
+}
+
+#picc {
+	background-image:url("immagini/piatto3.jpg");
+	background-position: center center;
+	background-size: cover;
+	margin: 10px;
+	height: 145px;
+}
+
+#guardaqui h4, #guardaqui h5 {
+	padding: 20px;
+}
+
+.foot {
+	flex-basis: 47%;
+	color: white;
+	padding-bottom: 110px;
+	
+}
+
+footer {
+	background-image: url("immagini/BG-footer.png");
+	height: 500px;
+
+}
+
+footer figure {
+	float: left;
+}
+
+.icc p {
+	padding-left: 40px;
+	
+}
+
+.icc {
+	padding-bottom: 20px;
+}
+
+#copyright {
+	color:rgba(194,202,255,0.78) 
+}
+
+.social {
+	padding: 10px;
+}
+
+#flor {
+	position: absolute;
+	top:460px;
+	left:-120px;
+}
+

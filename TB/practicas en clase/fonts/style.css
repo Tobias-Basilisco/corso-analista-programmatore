@@ -1,0 +1,47 @@
+
+
+
+@font-face {
+	src: url("fonts/Abel-Regular.ttf");
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+.centro {
+	display: flex;
+	font-family: 'Abel', sans-serif;
+}
+
+.align {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+.textito{
+	margin: 20px;
+}
+.immagine {
+	width: 1000px;
+	height: 666px;
+	margin: 10px auto;
+	
+
+}
+
+.immagine img {
+	
+	object-fit:cover;
+	object-position: center center;
+}
+
+.max{
+	max-width: 900px;
+	min-width: 700px;
+	
+}
+
+

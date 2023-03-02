@@ -1,0 +1,31 @@
+fonts
+
+google fonts
+dafont.com
+
+
+(caniuse.com pagina per controllare se l'estensioni dei file si vedono su i diversi browser)
+
+
+
+inserire file audio:
+
+<audio controls >
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+inserire video file
+
+ 
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+incorporare un video di youtube:
+<iframe width="917" height="516" src="https://www.youtube.com/embed/-sbGXsfd46Y" title="Madame canta &quot;Il Bene nel Male&quot;
+
+ - Domenica In Speciale Sanremo - 12/02/2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

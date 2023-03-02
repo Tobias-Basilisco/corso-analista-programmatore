@@ -1,0 +1,14 @@
+box model
+-margin
+	-border
+		-padding
+			-contenido
+
+m=16 px unidad de medida
+
+box sizing
+
+margini vertically non si sumano (prende il più alto) ej. el elmento de arriba tiene margen bot 30 y el elemento de abajo tiene margin top 5 = pone una distancia de 30
+
+
+ 

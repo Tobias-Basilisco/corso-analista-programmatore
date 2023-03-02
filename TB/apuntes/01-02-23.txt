@@ -1,0 +1,56 @@
+proggettazione
+	dal documento di specifiche si deriva lo schema funzionale
+
+		linguagio para hacer un modelo:
+		UML unified modeling level
+
+	lo schema funzionale è costituito da blocchi collegati fra loro da interfacce software (collega due pezzi di software)
+	ogni blocco dello schema può essere scomposto in blocchi più piccoli
+		può essere fatta dal proggettista o oin fase di implementazione 
+
+
+
+
+
+fornt		sicureza	autenticazione utente	
+
+
+
+!
+csszengarden.com/219/
+scratch
+
+
+CONTROLLO DI VERSIONE
+
+è un sistema client server che consente di fare una serie di cose
+	-sincronizare file fra più postazioni
+	-scegliere quali file sincronizzare e quando
+	-mantenere l'intera storia di ogni file
+
+esistono diversi protocolli di controllo di versione
+	il più diffuso è GIT
+		per utilizzare GIT ci servono un server e un client
+			server: github.com
+			client:	
+				git.exe
+				tortoisegit
+				visual studio code
+
+REPOSITORY (repo)
+un contenitore di file e di cartelle
+1) Creare il repository
+2) Clonare il ripository
+3) Sinconizare le modifiche
+ 
+
+
+commit
+	conferma le modifiche ai file locali
+
+push
+	publicca le commit sul server
+revert
+	riporta i file all'ultima commit
+pull
+	scarica delle modifiche dal server al repository locale

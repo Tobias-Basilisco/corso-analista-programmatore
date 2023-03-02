@@ -1,0 +1,10 @@
+border-radius: 3px
+aristasredondeadas de un div
+border-radius: 50%; diventa un cerchio, circulo.  =  shape-outside: circle();
+
+text-transform: uppercase;
+
+
+background position: center;
+
+

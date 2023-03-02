@@ -1,0 +1,18 @@
+body {background-color: bisque;
+    background-image:url("immagini/fondo.jpg")
+}
+nav {background-image: url("immagini/nav.jpg");}
+h1 {
+
+    color:aqua;
+
+}
+
+h1, h2, p {
+
+    color: #11214f;
+}
+
+h1 {
+    color: blueviolet;
+}
