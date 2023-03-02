@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+<title>menu nasconto</title>
+<link rel="stylesheet" href="style.css">
+	
+</head>
+	
+	<style>
+		
+		*{
+			margin:0;
+			padding:0}
+		}
+		
+		header {
+			height: 80px;
+		}
+		h1 {
+			font-size: 60px;
+		}
+		
+		#container{
+			margin: 0 auto;
+		}
+		
+		a {
+			color: #ccc;
+			
+		}
+		
+		nav{
+			background-color: rgba(188,51,54,1.00);
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 80px;
+		
+			
+		}
+		
+		nav ul {
+			
+			list-style: none;
+			
+		}
+		
+		nav li {
+			background-color: rgba(188,51,54,1.00);
+		}
+	
+		nav ul li{
+			display: inline-block;
+			
+		}
+		
+		nav a{
+			display: block;
+			padding:15px 10px;
+			color: #fff;
+			font-size: 20px;
+			line-height: 50px;
+			text-decoration: none;
+			
+			
+		}
+		
+		nav a:hover{
+			background-color: black;
+		}
+		
+		.bkgnd {
+			background-color: rgba(188,51,54,1.00);
+			display: none;
+			text-align: center;
+		}
+	
+		#hamburger{
+			display: none;
+		}
+		
+		@media (max-width:768px){
+			.hide {
+				display: none;
+			}
+			
+			#hamburger{
+				display: block;
+			}
+			.bkgnd{
+				display: block;
+				n
+				
+			}
+			
+			#apriMenu {
+				position: absolute;
+				top: 80px;
+				text-align: center;
+				width: 100%
+				
+			}
+			#apriMenu li{
+				border-top: 1px solid gray;
+				display: block;
+				width: 100%;
+				
+			}
+		
+		}
+	
+	</style>
+
+<body>
+	<header>
+		<div id="container">
+			<div class="bkgnd">
+				<a id="hamburger"  href="#"> <img src="hamburger.png" width="50px" height="50px" alt=""></a>
+			</div>
+			<nav >
+				
+				
+				<ul id="apriMenu" class="hide">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Chi siamo</a></li>
+					<li><a href="#">Prodotti</a></li>
+					<li><a href="#">Servizi</a></li>
+					<li><a href="#">Contatti</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+	<script>
+            document.getElementById( 'hamburger' ).addEventListener( 'click', function () {
+   
+    		document.getElementById( 'apriMenu' ).toggleClass( 'hide' );
+    
+			}, false );
+
+			Element.prototype.toggleClass = function ( className ) {
+
+    		if( this.className.split( ' ' ).indexOf( className ) == -1 ) {
+        
+        	this.className = ( this.className + ' ' + className ).trim();
+        
+    		} else {
+        
+        	this.className = this.className.replace( new RegExp( '(\\s|^)' + className + '(\\s|$)' ), ' ' ).trim();
+        
+    		};
+
+			};
+	</script>
+
+	</header>
+	<h1> Menu risponsive in CSS</h1>
+	
+</body>
+</html>

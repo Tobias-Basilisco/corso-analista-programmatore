@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+</head>
+	
+	<style>
+		
+		
+		#contatti textarea {
+			width: 100%;
+			resize: 
+			
+		}
+		#contatti button{
+			cursor: pointer;
+		}
+	</style>
+
+<body>
+	<form id="contatti" action="invio-form.php" method="post">
+		<fieldset>
+			<input name="nome" placeholder="Il tuo nome" type="text" required autofocus>
+		</fieldset>
+		<fieldset>
+			<input name="email" placeholder="La tua mail" type="email">
+		</fieldset>
+		<fieldset>
+			<select name="corso" id="corso">
+			<option value="">Seleziona il corso</option>
+			<option value="HTML">HTML 5</option>
+			<option value="CSS">CSS</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<input name="pw" placeholder="La tua password" type="password">
+		</fieldset>
+		
+		<fieldset>
+			<label for="inizio">Scegil la data</label>
+			<input type="date" placeholder="Scegli la data" nama="inizio">
+		</fieldset>
+		<filedset>
+			<input nome="file" type="file">
+		</filedset>
+		<fieldset>
+			<textarea name="msg" placeholder="Il tup messaggio"></textarea>
+		</fieldset>
+		
+		<fieldset>
+			<label for="c-si" style="float: left">
+			<input type="radio" name="consenso" value="no" id="c-no">
+				No
+			</label>
+			<label for="c-si" style="float: left">
+			<input type="radio" name="consenso" value="si" id="c-si">
+				Si
+			</label>
+			
+		</fieldset>
+		
+		
+		<fieldset>
+			<label for="c-si" style="float: left">
+			<input type="checkbox" name="asd" value="no" id="asd">
+				No
+			</label>
+			<label for="c-si" style="float: left">
+			<input type="checkbox" name="consenso" value="si" id="dsa">
+				Si
+			</label>
+			
+		</fieldset>
+		
+		
+		<input type="reset">
+		<input type="submit">
+	
+	
+	</form>
+</body>
+</html>

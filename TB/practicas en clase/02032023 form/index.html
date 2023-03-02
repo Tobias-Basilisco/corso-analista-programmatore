@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+<title>menu nasconto</title>
+<link rel="stylesheet" href="style.css">
+	
+</head>
+	
+	<style>
+		*{
+			margin:0;
+			padding:0}
+		}
+		h1 {
+			font-size: 60px;
+		}
+		
+		#container{
+			margin: 0 auto;
+		}
+		
+		a {
+			color: #ccc;
+			
+		}
+		#hamnav img{
+			padding: 0 20px;
+		}
+		
+		nav{
+			background-color: rgba(188,51,54,1.00);
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 80px;
+		
+			
+		}
+		
+		nav ul {
+			
+			list-style: none;
+			
+		}
+		
+		nav li {
+			background-color: rgba(188,51,54,1.00);
+		}
+	
+		nav ul li{
+			display: inline-block;
+			
+		}
+		
+		nav a{
+			display: block;
+			padding:15px 10px;
+			color: #fff;
+			font-size: 20px;
+			line-height: 50px;
+			text-decoration: none;
+			
+			
+		}
+		
+		nav a:hover{
+			background-color: black;
+		}
+		
+		#hamnav label, #hamburger {
+			display: none;
+		
+		}
+		
+		@media (max-width:768px){
+			#hamnav ul li {
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+			
+			#hamnav label {
+				display: block;
+			}
+			
+			#navitems{
+				display: none;
+				position: absolute;
+				top: 80px;
+				border-top: 1px solid gray;
+				width: 100%;
+	
+			}
+			
+			#hamnav input:checked ~ #navitems {display: block}
+			
+		}
+	
+	</style>
+
+<body>
+	<header>
+		<div id="container">
+			<nav id="hamnav">
+				<label for="hamburger"><img src="hamburger.png" width="50" alt=""></label>
+				<input type="checkbox" id="hamburger">
+				
+				<ul id="navitems">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Chi siamo</a></li>
+					<li><a href="#">Prodotti</a></li>
+					<li><a href="#">Servizi</a></li>
+					<li><a href="#">Contatti</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+	
+	</header>
+	<h1> Menu risponsive in CSS</h1>
+	
+</body>
+</html>
