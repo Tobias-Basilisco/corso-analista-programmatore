@@ -127,11 +127,11 @@ h2{
 }
 
 .prodotti-img:hover .banercito {
-	background-color: rgba(184,184,184,0.21);
+	background-color: rgba(184,184,184,0.01);
 	top:-90px;
 	
 }
-.prodotti-img:hover{
+.sezione-prodotti .prodotti-img:hover{
 	width: 330px;
 	height: 286px;
 }
