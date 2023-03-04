@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
 
 }
 body{ 
@@ -20,7 +21,7 @@ header {
 nav ul li{
 	list-style-type: none;	
 	display: inline-block;
-	font-size: 20px;
+	font-size: 26px;
 	
 
 	
@@ -39,20 +40,20 @@ nav ul li{
 }
 
 nav ul li a {
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-top:64px;
-	padding-bottom: 64px;
+	padding: 60px 35px;
 	display: block;
 	
 }
 
 nav ul li a:hover {
-	background-color:#F1D693;
+	text-decoration: underline;
 
 	
 }
 
+.attuale {
+	text-decoration: underline;
+}
 
 
 a{
@@ -61,7 +62,12 @@ a{
 }
 
 
-
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 150px;
+}
+h2{
+	font-family: 'Shantell Sans', cursive;}
 
 
 .titolo {
@@ -69,7 +75,7 @@ a{
 	padding-bottom: 30px;
 	text-align: center;
 	width:100%; 
-	color:#FAF1DA; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	color:#FAF1DA; 
  	font-size: 60px;
 	text-shadow: 6px 6px #393838bf;
 	line-height: 120px;
@@ -87,20 +93,15 @@ a{
 .sezione-prodotti {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
             width: 80%;
             margin:0 auto;
             margin-top: 5rem;
         }
 
 .prodotti-img {
-	width: 600px;
+	width: 300px;
 	height: 260px;
-	flex-wrap: wrap;
-	margin-left: 0px;
-	margin-right: 0px;
 	border: solid black 1px;
-	flex-basis: 30%;
 	overflow: hidden
 }
 
@@ -139,6 +140,25 @@ footer{
 .contat {
 	font-size: 2rem;
 
+}
+
+@media (min-width: 576px) {
+	
+}
+
+
+@media (min-width: 577px) and (max-width: 1200px){
+	.prodotti-img{
+		margin: 20px auto;
+		
+	}	
+	header {
+		background-color: aqua;
+	}
+	
+	.sezione-prodotti{
+		flex-direction: column;
+	}
 }
 
 
