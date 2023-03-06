@@ -21,10 +21,7 @@ header {
 nav ul li{
 	list-style-type: none;	
 	display: inline-block;
-	font-size: 26px;
-	
-
-	
+	font-size: 26px;	
 }
 
 
@@ -33,10 +30,7 @@ nav ul li{
 .logo {
 
 	padding-left: 20px;
-	padding-top: 5px;
-
-	
-		
+	padding-top: 5px;		
 }
 
 
@@ -44,16 +38,12 @@ nav ul li a {
 	padding: 60px 35px;
 	display: block;
 	z-index: 999;
-	
-	
 }
 
 
 
 nav ul li a:hover {
-	text-decoration: underline;
-
-	
+	text-decoration: underline;	
 }
 
 .attuale {
@@ -196,7 +186,7 @@ footer{
 
 
 .bkgnd {
-			background-color: rgba(188,51,54,1.00);
+			background-color: #EDC45E;
 			display: none;
 			text-align: center;
 		}
@@ -213,6 +203,7 @@ footer{
 			
 			#hamburger{
 				display: block;
+				margin: 38px auto;
 			}
 			.bkgnd{
 				display: block;
