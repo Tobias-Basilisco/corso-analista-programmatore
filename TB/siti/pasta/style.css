@@ -38,11 +38,16 @@ nav ul li{
 		
 }
 
+
 nav ul li a {
 	padding: 60px 35px;
 	display: block;
+	z-index: 999;
+	
 	
 }
+
+
 
 nav ul li a:hover {
 	text-decoration: underline;
@@ -94,7 +99,7 @@ h2{
             justify-content: space-between;
             width: 80%;
             margin:0 auto;
-            margin-top: 5rem;
+            margin-top: 5rem;height: 300px;
         }
 
 .prodotti-img {
@@ -188,22 +193,64 @@ footer{
 
 }
 
-@media (min-width: 576px) {
+
+.bkgnd {
+			background-color: rgba(188,51,54,1.00);
+			display: none;
+			text-align: center;
+		}
 	
+		#hamburger{
+			display: none;
+		}
+@media (max-width: 910px) {
+	
+
+	.hide {
+				display: none;
+			}
+			
+			#hamburger{
+				display: block;
+			}
+			.bkgnd{
+				display: block;
+				
+				
+			}
+			
+			#apriMenu {
+				position: absolute;
+				top: 150px;
+				text-align: center;
+				width: 100%
+				
+			}
+			#apriMenu li{
+				border-top: 1px solid gray;
+				display: block;
+				width: 100%;
+				
+			}
+	
+			#logoyham{
+				display: flex;
+				justify-content: space-around;
+				width: 100%;
+}
 }
 
 
-@media (min-width: 577px) and (max-width: 1200px){
+@media (max-width: 1200px){
 	.prodotti-img{
 		margin: 20px auto;
 		
 	}	
-	header {
-		background-color: aqua;
-	}
+	
 	
 	.sezione-prodotti{
 		flex-direction: column;
+		height: 800px;
 	}
 }
 
