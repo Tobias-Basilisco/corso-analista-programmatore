@@ -216,7 +216,8 @@ footer{
 				top: 150px;
 				left:0px;
 				text-align: center;
-				width: 100%
+				width: 100%;
+				z-index: 99;
 				
 			}
 			#apriMenu li{
@@ -224,6 +225,7 @@ footer{
 				display: block;
 				width: 100%;
 				background-color: #EDC45E;
+				z-index: 999;
 				
 			}
 	
