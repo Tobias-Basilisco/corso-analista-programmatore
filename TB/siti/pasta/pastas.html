@@ -15,10 +15,17 @@
 
 <body>
 	<header>
+		<div id="logoyham">
+			<div class="logo"><a href="index.html"><img src="immagini/logo.jpg" alt="logo de pastissima"></a>
+			</div>
+			<div class="bkgnd">
+					<a id="hamburger"  href="#"> <img src="immagini/hamburger.png" width="74px" height="74px" alt=""></a>
+			</div>
+			
+		</div>
 		
-		<div class="logo"><a href="index.html"><img src="immagini/logo.jpg" alt="logo de pastissima"></a></div>
 		<nav>			
-			<ul>				
+			<ul id="apriMenu" class="hide">				
 				<li><a href="index.html">Home</a></li>				
 				<li class="attuale"><a href="pastas.html">Pasta!</a></li>				
 				<li><a href="le-nostre-filiali.html">Le nostre filiali</a></li>				
@@ -26,7 +33,27 @@
 			</ul>
 			
 		</nav>
-		
+	<script>
+            document.getElementById( 'hamburger' ).addEventListener( 'click', function () {
+   
+    		document.getElementById( 'apriMenu' ).toggleClass( 'hide' );
+    
+			}, false );
+
+			Element.prototype.toggleClass = function ( className ) {
+
+    		if( this.className.split( ' ' ).indexOf( className ) == -1 ) {
+        
+        	this.className = ( this.className + ' ' + className ).trim();
+        
+    		} else {
+        
+        	this.className = this.className.replace( new RegExp( '(\\s|^)' + className + '(\\s|$)' ), ' ' ).trim();
+        
+    		};
+
+			};
+	</script>	
 	</header>
 	<main>
 		<div class="titolo pasta">
