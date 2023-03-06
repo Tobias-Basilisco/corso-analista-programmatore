@@ -13,6 +13,7 @@ header {
 		display: flex;
 		justify-content: space-between;
 		height: 150px;
+		margin: 0 auto;
 		
 }
 
@@ -222,6 +223,7 @@ footer{
 			#apriMenu {
 				position: absolute;
 				top: 150px;
+				left:0px;
 				text-align: center;
 				width: 100%
 				
@@ -230,6 +232,7 @@ footer{
 				border-top: 1px solid gray;
 				display: block;
 				width: 100%;
+				background-color: #EDC45E;
 				
 			}
 	
