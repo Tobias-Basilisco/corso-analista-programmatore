@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
 
 }
 body{ 
@@ -13,6 +13,7 @@ header {
 		display: flex;
 		justify-content: space-between;
 		height: 150px;
+		margin: 0 auto;
 		
 }
 
@@ -20,10 +21,7 @@ header {
 nav ul li{
 	list-style-type: none;	
 	display: inline-block;
-	font-size: 20px;
-	
-
-	
+	font-size: 26px;	
 }
 
 
@@ -32,27 +30,25 @@ nav ul li{
 .logo {
 
 	padding-left: 20px;
-	padding-top: 5px;
-
-	
-		
+	padding-top: 5px;		
 }
+
 
 nav ul li a {
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-top:64px;
-	padding-bottom: 64px;
+	padding: 60px 35px;
 	display: block;
-	
+	z-index: 999;
 }
+
+
 
 nav ul li a:hover {
-	background-color:#F1D693;
-
-	
+	text-decoration: underline;	
 }
 
+.attuale {
+	text-decoration: underline;
+}
 
 
 a{
@@ -61,7 +57,12 @@ a{
 }
 
 
-
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 150px;
+}
+h2{
+	font-family: 'Shantell Sans', cursive;}
 
 
 .titolo {
@@ -69,7 +70,7 @@ a{
 	padding-bottom: 30px;
 	text-align: center;
 	width:100%; 
-	color:#FAF1DA; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	color:#FAF1DA; 
  	font-size: 60px;
 	text-shadow: 6px 6px #393838bf;
 	line-height: 120px;
@@ -89,18 +90,69 @@ a{
             justify-content: space-between;
             width: 80%;
             margin:0 auto;
-            margin-top: 5rem;
+            margin-top: 5rem;height: 300px;
         }
 
 .prodotti-img {
 	width: 300px;
 	height: 260px;
+<<<<<<< HEAD
 	margin-left: 0px;
 	margin-right: 0px;
 	border: solid black 1px;
 	overflow: hidden;
+=======
+	border: solid black 1px;
+	overflow: hidden;
+	position: relative;
+	transition: all 1s;
+	
+	
+>>>>>>> f2f90f3c3ddc35ae1070cafb5ef02b7599eb04e9
 	
 }
+
+.banercito{
+	font-size: 30px;
+	color:#FAF1DA; 
+	text-shadow: 6px 3px 1px #393838bf;
+	background-color: rgba(0,0,0,0.21);
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top:0px;
+	transition: all 1s;
+	
+		
+
+}
+
+.prodotti-img:hover .banercito {
+	background-color: rgba(184,184,184,0.01);
+	top:-90px;
+	
+}
+.sezione-prodotti .prodotti-img:hover{
+	width: 330px;
+	height: 286px;
+}
+
+.banercito h3 {
+	
+	font-family: 'Shantell Sans', cursive;
+}
+#pasta1{
+	background-image: url("immagini/fusilli.jpg")
+}
+#pasta2{
+	background-image: url("immagini/ravioli.jpg")
+}
+#pasta3{
+	background-image: url("immagini/tortellini.jpg")
+}
+
 
 .pastatitle{
 	clear: both;
@@ -122,7 +174,7 @@ footer{
             display: flex;
             justify-content: space-between;
             background-color: transparent;
-            width: 20%;
+            width: 240px;
             margin: 0 auto;
             margin-top: 2rem;
 			margin-bottom: 2rem;
@@ -139,6 +191,7 @@ footer{
 
 }
 
+<<<<<<< HEAD
 @media (min-width : 496px ) and ( max-width : 1200px ){
 	
 	.sezione-prodotti {
@@ -149,3 +202,72 @@ footer{
 	
 	
 }
+=======
+
+.bkgnd {
+			background-color: #EDC45E;
+			display: none;
+			text-align: center;
+		}
+	
+		#hamburger{
+			display: none;
+		}
+@media (max-width: 910px) {
+	
+
+	.hide {
+				display: none;
+			}
+			
+			#hamburger{
+				display: block;
+				margin: 38px auto;
+			}
+			.bkgnd{
+				display: block;
+				
+				
+			}
+			
+			#apriMenu {
+				position: absolute;
+				top: 150px;
+				left:0px;
+				text-align: center;
+				width: 100%;
+				z-index: 99;
+				
+			}
+			#apriMenu li{
+				border-top: 1px solid gray;
+				display: block;
+				width: 100%;
+				background-color: #EDC45E;
+				z-index: 999;
+				
+			}
+	
+			#logoyham{
+				display: flex;
+				justify-content: space-around;
+				width: 100%;
+}
+}
+
+
+@media (max-width: 1200px){
+	.prodotti-img{
+		margin: 20px auto;
+		
+	}	
+	
+	
+	.sezione-prodotti{
+		flex-direction: column;
+		height: 800px;
+	}
+}
+
+
+>>>>>>> f2f90f3c3ddc35ae1070cafb5ef02b7599eb04e9
