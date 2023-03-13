@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Appunti di viaggio - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="top">
+		<header>
+			<div id="logoyham">
+				<div class="logo"><a href="index.html"><p>Appunti</p><p>di viaggio</p> </a>
+				</div>
+				<div class="bkgnd">
+						<a id="hamburger"  href="#"> <img src="immagini/hamburger.png" width="74px" height="74px" alt=""></a>
+				</div>
+
+			</div>
+
+			<nav>			
+				<ul id="apriMenu" class="hide">				
+					<li><a class="attuale" href="index.html">Home</a></li>				
+					<li><a href="destinazioni.html">Destinazioni</a></li>				
+					<li><a href="#">About</a></li>				
+					<li><a id="contatti" href="#">Contatti</a></li>
+				</ul>
+
+			</nav>
+		<script>
+				document.getElementById( 'hamburger' ).addEventListener( 'click', function () {
+
+				document.getElementById( 'apriMenu' ).toggleClass( 'hide' );
+
+				}, false );
+
+				Element.prototype.toggleClass = function ( className ) {
+
+				if( this.className.split( ' ' ).indexOf( className ) == -1 ) {
+
+				this.className = ( this.className + ' ' + className ).trim();
+
+				} else {
+
+				this.className = this.className.replace( new RegExp( '(\\s|^)' + className + '(\\s|$)' ), ' ' ).trim();
+
+				};
+
+				};
+		</script>
+	</header>
+	<div class="qhero">
+		<div>
+			<h1>Viaggia verso la destinazione dei tuoi sogni</h1>
+			<p>Sei pronto a scoprire la destinazione dei tuoi sogni? Lasciati
+				trasportare in un viaggio straordinario alla ricerca della meta
+				perfetta, quella che ti farà sentire veramente vivo</p>
+			<a href="#">Richiedi preventivo</a>
+		</div>
+		<figure><img src="immagini/india1.jpg" alt="immagine di un toro su un balcone"></figure>
+	</div>
+	</div>
+	
+	<div class="momenti">
+		<h2>Crea i tuoi momenti da ricordare</h2>
+		<p>"Non aspettare che i sogni ti trovino: crea la tua vita da ricordare ogni giorno”"</p>
+		<p id="iscriviti"><a href="#">Iscriviti alla community</a></p>	
+	</div>
+	
+	<article>
+		<h2>Scopri posti sconosciuti!</h2>
+		<p id="sottoscopri">Sii il protagonista della tua storia e crea i sogniche ti porteranno verso ciò che desideri.</p>
+		<div id="signore">
+			<figure><img src="immagini/vietnam1.jpg" alt="Signora di Vietnam con cappello tipico"></figure>
+			<div>
+				<figure><img src="immagini/vietnam2.jpg" alt="Un'altra signora di Vietnam triste perchè non ha un cappello"></figure>
+				<h3>Non importa se si tratta di un'isola paradisiaca, di una città vibrante, o di una natura selvaggia.</h3>
+                <p> La destinazione dei tuoi sogni è il luogo dove
+                    ritroverai te stesso e dove ogni giorno potrai
+                    vivere appieno le emozioni più autentiche</p>             
+				<p>Preparati a vivere un'esperienza unica e
+                        irripetibile: il viaggio verso la destinazione dei tuoi
+                        sogni ti aspetta!</p>
+                 
+            </div>
+		</div>
+	</article>
+	
+	<article class="momenti">
+		<div class="contpaj">
+			<div>
+				<h2>Scegli il posto dove vorresti esser</h2>
+			<p id="volo"> Ascolta il tuo volo!</p>
+			<p>"Scegli il posto dove vorresti essere "è un invito a fare una
+				riflessione sulle proprie aspirazioni, desideri e bisogni.
+			</p>
+			
+		<p>Spesso ci troviamo immersi nella routine quotidiana senza
+			prenderci il tempo per chiederci se siamo veramente felici
+			dove ci troviamo.
+			</p>
+			<p>Questo invito ci spinge a immaginare il luogo ideale dove
+				vorremmo essere, prova anche tu ad ascoltare il tu ovolo!</p>
+			</div>		
+		<figure><img src="immagini/peru2.jpg" alt="aquila sotto il cielo"></figure>
+		
+		</div>
+	</article>
+	
+<footer>
+	<div class="logo"><a href="index.html"><p>Appunti</p><p>di viaggio</p> </a>
+				</div>
+	<p id="copyr">2023 Appunti di Viaggio. All Rights Reserved.</p>
+	<div id="social">
+		<a href="#"><figure><img src="immagini/facebook.png" alt="facebook logo"></figure></a>
+		<a href="#"><figure><img src="immagini/insta.png" alt="instagram logo"></figure></a>
+	</div>
+</footer>
+</body>
+</html>

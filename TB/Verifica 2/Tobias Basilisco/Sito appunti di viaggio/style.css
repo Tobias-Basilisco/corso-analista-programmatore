@@ -1,0 +1,406 @@
+@font-face {
+	src: url("fonts/Lato/Lato-Regular.ttf");
+	font-family: 'Lato-Regular';}
+
+@font-face {
+	src: url("fonts/Cardo/Cardo-Regular.ttf");
+	font-family: 'Cardo-Regular';}
+
+@font-face {
+	src: url("fonts/Cardo-Bold.ttf");
+	font-family: 'Cardo-Bold';}
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cardo-Regular';
+
+
+}
+
+
+
+#top{
+	background-color: #e9e7e8;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+
+header {
+		width: 90%;
+		background-color: #e9e7e8;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+		margin: 0px auto;
+		
+		
+}
+
+
+nav ul li{
+	list-style-type: none;	
+	display: inline-block;
+	font-size: 26px;
+	
+}
+
+
+
+
+.logo p {
+    color: #699b82;
+	font-weight:bold;
+	font-size: 30px;
+	
+			
+}
+
+.logo {
+	padding:0px 30px;
+	
+}
+
+
+nav ul li a {
+	padding: 10px 35px;
+	margin-top: 10px;
+	display: block;
+	z-index: 999;
+	font-family: 'Lato-Regular';
+}
+
+
+
+nav ul li a:hover {
+	text-decoration: underline;	
+}
+
+.attuale {
+	text-decoration: underline;
+	text-decoration-color: #699b82;
+	color: #699b82;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+#contatti {
+	font-weight: bold;
+	border: solid 2px black;
+	border-radius: 20px;
+}
+
+#contatti:hover{
+	text-decoration: none !important;
+	background-color: #699b82;
+	color: #e9e7e8;
+}
+
+.bkgnd {
+    background-color: #e9e7e8;
+    display: none;
+    text-align: center;
+}
+
+#hamburger{
+    display: none;
+}
+
+.qhero{
+	width: 90%;
+	margin: 50px auto;
+	display: flex;
+	
+	
+	
+}
+
+.qhero figure {
+	margin-left: 15px;
+	width: 160%;
+}
+
+.qhero figure img {
+	width: 100%;
+}
+.qhero p {
+	margin:15px;
+	margin-left: 0px;
+	margin-bottom: 36px;
+	font-size: 20px;
+	text-align: justify;
+}
+.qhero div a {
+	background-color: #699b82;
+	color: #e9e7e8;
+	height: 45px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+h1, h2 {
+	font-size: 66px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px
+}
+
+.momenti {
+	text-align: center;
+	background-color:#232323;
+	color: #e9e7e8;
+	width: 100%;
+	padding: 60px auto;
+	
+	
+}
+.momenti h2 {
+	padding-top: 30px;
+	width: 48%;
+	margin: 0 auto;
+}
+
+.momenti p{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	width: 30%;
+	margin: 0 auto;
+	
+}
+
+.momenti a {
+	
+	color: #e9e7e8;
+	height: 45px;
+	padding: 10px;
+	font-weight: bold;
+	border: solid 3px #e9e7e8;
+	font-size: 20px;
+	width: 150px;
+	
+}
+
+#iscriviti {
+	width: 300px;
+}
+
+article{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #e9e7e8;
+}
+
+#signore {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	text-align:justify;
+}
+
+#signore div {
+	width: 40%;
+	padding: 0 2%;
+}
+article figure {
+	width: 50%;
+}
+article figure img {
+	width: 100%;
+}
+
+#signore div figure {
+	width: 100%;
+}
+
+article p{
+	padding: 20px 0; 
+	font-size: 20px;
+	width: 100%;
+}
+
+h3 {
+	padding: 42px 0; 
+	font-size: 30px;
+	text-decoration: underline;
+	
+} 
+
+#sottoscopri {
+	font-weight: bold;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 0;
+	font-size: 26px;
+}
+
+.momenti div h2, .momenti div h4, .momenti div p {
+	width: 80%;
+	text-align: left;
+}
+#volo{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+
+
+.contpaj {
+	display: flex;
+	
+}
+
+.contpaj p {
+	text-align: justify;
+	padding: 10px !important;
+}
+
+.contpaj figure {
+	margin-top:50px;	}
+
+
+footer {
+	background-color: #c4c4c4;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+	
+}
+
+footer .logo {
+	padding: 20px;
+	width: 140px;
+	margin: 0 auto;
+	
+}
+
+#copyr {
+	padding-bottom: 30px;
+	
+}
+#social {
+	display: flex;
+	width: 40px;
+	position: absolute;
+	bottom: 22px;
+	right: 20%;
+}
+
+#social img {
+	width: 20px;
+	padding: 7px;
+}
+#social a {
+	width: 20px;
+	margin: 0 7px
+}
+footer .logo a {
+	width: 30px !important;
+}
+
+#pipo {
+		background-color: #e9e7e8;
+	color: black;
+}
+
+@media (max-width: 1110px) {
+	
+
+	.hide {
+				display: none;
+			}
+			
+			#hamburger{
+               
+				display: block;
+				padding: 10px 30px;
+			}
+            #hamburger img{
+                height: 60px;
+                width: 60px;
+            }
+
+			.bkgnd{
+				display: block;
+				
+				
+			}
+			
+			#apriMenu {
+				position: absolute;
+				top: 120px;
+				left:0px;
+				text-align: center;
+				width: 100%;
+				z-index: 99;
+				
+			}
+			#apriMenu li{
+				border-top: 1px solid black;
+				display: block;
+				width: 100%;
+				background-color: #e9e7e8;
+				z-index: 999;
+				
+			}
+	
+			#logoyham{
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				}
+	.qhero{
+		flex-wrap: wrap;
+	}
+	
+	.qhero figure {
+		margin-top: 50px;
+	}
+	
+	
+	
+	.momenti p, .momenti h2 {
+		width: 90%;
+	}
+	
+	#sottoscopri {
+	width: 90%;
+	}
+	
+	#signore{
+		flex-wrap: wrap;
+	}
+	
+	#signore div {
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 20px auto;
+	padding: 0;
+	
+}
+	#signore figure, .qhero div {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.contpaj {
+		flex-wrap: wrap;
+	}
+	
+	.contpaj figure {
+		width: 90%;
+		margin: 30px auto;
+	}
+	
+}
+
+

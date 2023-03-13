@@ -1,0 +1,14 @@
+http://localhost/sito-wordpress2/wp-admin/
+
+
+
+finito el sito utilizare:
+cookie bot
+para analizar los elementos al interno del sitio que utilizan cookies y que te pueden traer problemas de privacy
+y te hace el banner para seleccionar que cookies quiere aceptar el usuario
+
+https://themeforest.net/
+per acquistare temi
+ 
+
+

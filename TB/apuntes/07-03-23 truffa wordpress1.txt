@@ -1,0 +1,23 @@
+40/50 euro la hora
+
+1000 euros la pagina sin e-comerce con todo sin manutencion
+
+wordpress èun cms
+
+
+wordpress:
+ha bisogno di :
+	server
+	database
+
+https://muffingroup.com/blog/orange-color-palette/
+
+wordpress.org
+
+server linux
+wordpress se nistala en la root del sito
+
+
+por defecto database de xampp
+utente: root
+password:           (vuota)
