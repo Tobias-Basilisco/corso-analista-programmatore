@@ -1,0 +1,7 @@
+WP
+
+server (ej apache)
+interprete php
+database mysql
+
+Client FTP (per lavorare in remoto e per caricare il sito)
